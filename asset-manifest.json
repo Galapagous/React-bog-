@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-bog/static/css/main.3cf13ba2.css",
+    "main.js": "/React-bog/static/js/main.f5955c6a.js",
+    "static/media/img1.jpg": "/React-bog/static/media/img1.6920be911c6b67ad496c.jpg",
+    "static/media/img4.jpg": "/React-bog/static/media/img4.2c9f3287fe47b56b6b36.jpg",
+    "static/media/img2.jpg": "/React-bog/static/media/img2.87344812a21e0cb53842.jpg",
+    "static/media/blog5.jpg": "/React-bog/static/media/blog5.8df701d275ae5e8cb71b.jpg",
+    "static/media/img3.jpg": "/React-bog/static/media/img3.8e42d966e9631beabdea.jpg",
+    "static/media/poverty1.jpg": "/React-bog/static/media/poverty1.3b76a57215349b0179e1.jpg",
+    "static/media/blog4.jpg": "/React-bog/static/media/blog4.6ae3c60b4a3a8aa9b984.jpg",
+    "static/media/write1.jpg": "/React-bog/static/media/write1.65c363bc123fbc246de8.jpg",
+    "static/media/rasta.jpg": "/React-bog/static/media/rasta.b3cb0aec23f12c6150a0.jpg",
+    "static/media/laugh.jpg": "/React-bog/static/media/laugh.c9d4cada2e42e7d30aa0.jpg",
+    "index.html": "/React-bog/index.html",
+    "main.3cf13ba2.css.map": "/React-bog/static/css/main.3cf13ba2.css.map",
+    "main.f5955c6a.js.map": "/React-bog/static/js/main.f5955c6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3cf13ba2.css",
+    "static/js/main.f5955c6a.js"
+  ]
+}
