@@ -1,0 +1,15 @@
+.sidebar {
+  flex: 1;
+}
+
+.sideSocial {
+  margin-top: 20px;
+  text-align: center;
+}
+.title {
+  cursor: pointer;
+}
+/* .sideLinks {
+  width: 300px;
+  text-align: center;
+} */
