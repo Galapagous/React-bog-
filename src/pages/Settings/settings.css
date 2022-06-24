@@ -1,0 +1,89 @@
+.settings {
+  display: flex;
+  margin-bottom: 20px;
+}
+.settingsWrapper {
+  flex: 9;
+  height: auto;
+}
+.settingsChange {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.settingsPP {
+  height: auto;
+  margin-bottom: 20px;
+}
+.settingsUpdate {
+  font-size: 2rem;
+  color: tomato;
+  cursor: pointer;
+}
+.settingsDelete {
+  font-size: 1.5rem;
+  color: teal;
+  cursor: pointer;
+}
+form label:first-child {
+  margin: 20px;
+  font-size: 2rem;
+  display: block;
+}
+.profileImage {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 200px;
+}
+.settingsEdit {
+  position: absolute;
+  right: 55%;
+  top: 50%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: teal;
+  cursor: pointer;
+  /* margin-bottom: 100px; */
+}
+.update {
+  cursor: pointer;
+  font-size: 2rem;
+}
+.formItems {
+  margin-top: 50px;
+}
+.formLabel {
+  display: block;
+  font-size: 1.5rem;
+  color: grey;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.formInput {
+  display: inline-block;
+  width: 70%;
+  height: 40px;
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.formInput:focus {
+  border: none;
+}
+.button {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.submitButton {
+  position: relative;
+  width: 200px;
+  border-radius: 10px;
+  margin: auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

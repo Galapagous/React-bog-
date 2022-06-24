@@ -1,46 +1,60 @@
-.writeItem {
+.write {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.writerTool {
+.writeImage {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+.form {
+  position: relative;
+}
+.writeFormGroup {
   margin-top: 20px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 90%;
+  justify-content: center;
 }
-.writerTool input {
-  width: 800px;
-  height: 50px;
-  border-radius: 10px;
-  border: none;
-  border: 1px solid grey;
+.AddInput {
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.add {
+  color: rgb(83, 82, 82);
+  cursor: pointer;
+}
+.writeInput {
+  width: 70vw;
   font-size: 2rem;
-}
-.publish {
-  width: 80px;
-  height: 40px;
-  background-color: green;
-  color: white;
   border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  margin: 10px;
+  font-weight: 500;
 }
-.circle {
-  width: 80px !important;
-  height: 80px !important;
-  cursor: pointer;
+.writeInput:focus {
+  border: none;
 }
-.writeImage {
-  width: 90%;
-  height: 500px;
-  object-fit: cover;
-  border-radius: 10px;
-}
-.writeText {
-  width: 800px;
-  height: 300px;
+.TextArea {
   font-size: 1.2rem;
+  height: 400px;
+  width: 70%;
+}
+.submitButton {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: teal;
+  color: white;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 120px;
+  right: 0%;
 }

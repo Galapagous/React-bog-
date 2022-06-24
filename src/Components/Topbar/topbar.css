@@ -1,0 +1,51 @@
+.top {
+  width: auto;
+  height: 60px;
+  background-color: rgb(252, 252, 252);
+  position: sticky;
+  top: 0;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 2;
+}
+.topLeft {
+  flex: 3;
+}
+.topCenter {
+  flex: 6;
+}
+.topRight {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  cursor: pointer;
+  margin-left: 10px;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  font-size: 2rem;
+  color: grey;
+}
+.navItem {
+  cursor: pointer;
+  margin-left: 15px;
+  text-decoration: none;
+  color: grey;
+}
+.topImg {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.search {
+  margin-left: 10px;
+  cursor: pointer;
+}

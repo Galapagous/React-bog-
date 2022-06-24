@@ -1,41 +1,28 @@
 import "./register.css"
-import Topbar from "../../component/Topbar/Topbar"
 import { Link } from "react-router-dom"
 
-export default function Register() {
+function Register() {
   return (
-    <div className="register">
-      <div className="registerItems">
-        <Topbar className="registerTop" />
-        <div className="registerComponent">
-          <div className="registerItem">
-            <div className="loginlink">
-              <Link to="/login">
-                <button className="login">Login</button>
-              </Link>
-            </div>
-
-            <span className="pageTitle">Register</span>
-            <form className="registerForm">
-              <div className="registerFormitem">
-                <label className="username">UserName</label>
-                <input type="text" placeholder="UserName" />
-              </div>
-              <div className="registerFormitem">
-                <label className="username">Email</label>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div className="registerFormitem">
-                <label className="username">Password</label>
-                <input type="password" placeholder="Password" />
-              </div>
-              <div className="button">
-                <button type="submit">Update</button>
-              </div>
-            </form>
-          </div>
-        </div>
+    <div>
+      <div className="registerPage">
+        <span className="registerheader">Register</span>
+        <form className="register">
+          <label className="registerLabel">UserName</label>
+          <input className="registerInput" type="text" placeholder="UserName" autoFocus={true} />
+          <label className="registerLabel">Email</label>
+          <input className="registerInput" type="email" placeholder="example@gmail.com" />
+          <label className="registerLabel">Password</label>
+          <input className="registerInput" type="password" placeholder="Password" />
+          <button className="registerButton" type="submit">
+            Register
+          </button>
+          <Link to="/login">
+            <button className="newregisterlogin musaregister">Login</button>
+          </Link>
+        </form>
       </div>
     </div>
   )
 }
+
+export default Register
